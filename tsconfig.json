@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "isolatedModules": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src"
+    ],
+    "resolve": {
+        "extensions": [
+            ".ts",
+            ".tsx",
+            ".js",
+            ".jsx"
+        ]
+    }
+}

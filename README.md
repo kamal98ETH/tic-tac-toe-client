@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Tic Tac Toe Game (Client)
+This is a client-side Tic Tac Toe game built using React and TypeScript. The game is designed to be deployed to a web hosting platform such as Netlify or GitHub Pages. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation  
 
-## Available Scripts
+To install and run the game locally, follow these steps:  
 
-In the project directory, you can run:
+1. Clone the repository to your local machine:
+### `git clone https://github.com/kamal98ETH/tic-tac-toe-client.git`
+
+2. Install the dependencies using npm:  
+
+### `npm install`
+
+3. Set the following environment variables:  
+
+    - REACT_APP_API_URL: The URL of the server-side API that the game will connect to.
+
+4. Start the development server: 
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. Open the game in your web browser by navigating to http://localhost:3000.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage  
 
-### `npm test`
+To play the game, follow these steps:  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Open the game in your web browser by navigating to the URL where it's hosted.
 
-### `npm run build`
+2. Click the "New Game" button to start a new game.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Share the game URL with another player to invite them to join the game.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. The first player to join the game will be assigned the X symbol, and the second player to join will be assigned the O symbol.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Players take turns making moves by clicking on the empty squares on the game board.
 
-### `npm run eject`
+6. The game ends when one player has three symbols in a row, or when the game board is full.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+7. Players can start a new game by clicking the "New Game" button again.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you'd like to contribute to the game, feel free to submit a pull request with your changes. Before submitting a pull request, please make sure to:  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Write clear and concise commit messages  
+- Include tests for any new functionality or bug fixes  
+- Follow the existing code style and formatting conventions  
 
-## Learn More
+## License  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This game is licensed under the MIT license. See the LICENSE file for details.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact  
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or feedback about the game, please feel free to contact the author at [kamal98eth@gmail.com](mailto:kamal98eth@gmail.com).
