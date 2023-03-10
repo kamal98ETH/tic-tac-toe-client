@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 const App: React.FC = () => {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/tic-tac-toe-client">
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/game' element={<Game />}>
