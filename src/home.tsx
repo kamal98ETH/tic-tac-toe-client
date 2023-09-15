@@ -7,7 +7,7 @@ const Home: React.FC = () => {
         <div id="home-page">
             <Navbar />
             <main id="home-page-main">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="130 355 190 190">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="130 365 190 190">
                     <g>
                         <path d="m200.01 364.45v174.76" />
                         <path d="m249.51 362.93v174.76" />
